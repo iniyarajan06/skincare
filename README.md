@@ -1,4 +1,3 @@
-MyDerma Interactive Skincare Agent
 
 Track: Concierge Agents
 Subtitle: Personalized Skincare Recommendations and Dermatologist Booking Using AI Agents
@@ -77,34 +76,7 @@ Outputs recommendations and booking confirmations as pretty-printed JSON, allowi
 
 High-Level Architecture:
 
-           +-------------------------+
-           |      User Interface     |
-           |  (IPyWidgets Frontend) |
-           +-----------+-------------+
-                       |
-                       v
-           +-------------------------+
-           |  MyDerma Core Agent     |
-           +-----------+-------------+
-                       |
-        +--------------+---------------+
-        |                              |
-        v                              v
-+----------------+              +----------------+
-| Skincare Agent |              | Dermatologist  |
-| - Generates    |              | Referral Agent |
-|   recommendations |           | - Finds nearby |
-| - Diet & routine |            |   dermatologists|
-+----------------+              +----------------+
-        |                              |
-        +--------------+---------------+
-                       |
-                       v
-            +------------------+
-            | Appointment Agent|
-            | - Books slots    |
-            | - Confirms time  |
-            +------------------+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0b7165c7-095e-497d-82f0-3d2a357f4c4b" />MyDerma Interactive Skincare Agent
 
 
 Workflow:
